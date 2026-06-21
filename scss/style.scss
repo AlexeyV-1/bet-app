@@ -1,0 +1,27 @@
+.casino {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__bet {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__balance {
+        margin-bottom: 10px;
+    }
+}
+
+.bet {
+    background-color: transparent;
+}
+
+.title,
+.text {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+
+}
